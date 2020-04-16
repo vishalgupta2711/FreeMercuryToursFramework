@@ -1,0 +1,18 @@
+
+<suite name="Mercury DemoTours Application test automation suite">
+  
+  <listeners>
+  		<listener class-name = "com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  
+  
+    <test name="Mercury DemoTours Application test cases">
+         <classes>
+             <class name="com.mercury.qa.testcases.ContactPageTest"/>
+             <class name="com.mercury.qa.testcases.HomePageTest"/>
+             <class name="com.mercury.qa.testcases.LoginPageTest"/>	
+             <class name="com.mercury.qa.testcases.ProfilePageTest"/>	
+             
+         </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

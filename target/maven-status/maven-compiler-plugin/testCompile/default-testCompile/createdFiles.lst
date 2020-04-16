@@ -1,0 +1,4 @@
+com\mercury\qa\testcases\HomePageTest.class
+com\mercury\qa\testcases\LoginPageTest.class
+com\mercury\qa\testcases\ProfilePageTest.class
+com\mercury\qa\testcases\ContactPageTest.class
