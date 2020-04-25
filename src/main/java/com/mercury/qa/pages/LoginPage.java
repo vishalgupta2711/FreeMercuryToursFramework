@@ -9,7 +9,7 @@ import com.mercury.qa.base.TestBase;
 public class LoginPage extends TestBase {
 	
 	
-		//Page Factor - OR for login page
+		//Page Factory - OR for login page
 	@FindBy(name = "userName")
 	WebElement username;
 	
