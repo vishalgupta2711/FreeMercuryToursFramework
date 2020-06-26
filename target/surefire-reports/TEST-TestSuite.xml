@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="19" failures="3" name="TestSuite" time="1,220.225" errors="0" skipped="8">
+<testsuite tests="15" failures="4" name="TestSuite" time="258.643" errors="0" skipped="2">
   <properties>
-    <property name="JOB_NAME" value="FreeMercuryTestJob"/>
+    <property name="JOB_NAME" value="FreeMercuryTest"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="F:\Jenkins_New"/>
     <property name="HUDSON_SERVER_COOKIE" value="4cba46b1ca5ea195"/>
-    <property name="POM_ARTIFACTID" value="FreeMercuryTest"/>
     <property name="os.name" value="Windows 10"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="FreeMercuryTest"/>
     <property name="TEMP" value="C:\WINDOWS\TEMP"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="java.runtime.version" value="14+36-1461"/>
@@ -23,9 +21,9 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="FreeMercuryTestJob"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeMercuryTestJob/4/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="JOB_BASE_NAME" value="FreeMercuryTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FreeMercuryTest/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14\bin"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
@@ -36,7 +34,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="BUILD_ID" value="4"/>
+    <property name="BUILD_ID" value="1"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="maven.conf" value="F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
@@ -49,26 +47,23 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-14"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeMercuryTestJob/4/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FreeMercuryTest/1/display/redirect"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="14+36-1461"/>
     <property name="user.variant" value=""/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeMercuryTestJob/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FreeMercuryTest/display/redirect"/>
     <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-14"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="POM_PACKAGING" value="jar"/>
     <property name="SERVICE_ID" value="Jenkins"/>
     <property name="COMPUTERNAME" value="DESKTOP-1QASA0A"/>
     <property name="user.script" value=""/>
-    <property name="POM_GROUPID" value="FreeMercuryTestAutomation"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-FreeMercuryTestJob-4"/>
+    <property name="BUILD_TAG" value="jenkins-FreeMercuryTest-1"/>
     <property name="JENKINS_SERVER_COOKIE" value="4cba46b1ca5ea195"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -76,18 +71,18 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk-14/bin;C:\Program Files\Java\jdk-14/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk-14/bin;C:\Program Files\Java\jdk-14/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14\bin;F:\GIT\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven F:\Jenkins_New\war\WEB-INF\lib\remoting-4.2.jar F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59338"/>
     <property name="java.class.path" value="F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven F:\Jenkins_New\war\WEB-INF\lib\remoting-4.2.jar F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 63544"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-14/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-14/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Intel\WiFi\bin\;c:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14\bin;F:\GIT\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="jdk.debug" value="release"/>
-    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk-14/bin"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
     <property name="java.vm.specification.version" value="14"/>
@@ -100,18 +95,18 @@
     <property name="PATH+MAVEN" value="F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/FreeMercuryTestJob/4/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FreeMercuryTest/1/"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="os.arch" value="amd64"/>
     <property name="user.dir" value="F:\Vishal_Offc Work\Workspace\FreeMercuryTest"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/FreeMercuryTestJob/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FreeMercuryTest/"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="MAVEN_HOME" value="F:\Jenkins_New\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="BASE" value="F:\Jenkins_New"/>
-    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BUILD_NUMBER" value="1"/>
     <property name="PROCESSOR_REVISION" value="3d04"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
@@ -119,29 +114,33 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="F:\Jenkins_New\workspace\FreeMercuryTestJob@tmp"/>
-    <property name="WORKSPACE" value="F:\Jenkins_New\workspace\FreeMercuryTestJob"/>
+    <property name="WORKSPACE_TMP" value="F:\Jenkins_New\workspace\FreeMercuryTest@tmp"/>
+    <property name="WORKSPACE" value="F:\Jenkins_New\workspace\FreeMercuryTest"/>
     <property name="maven3.interceptor.common" value="F:\Jenkins_New\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="WINSW_EXECUTABLE" value="F:\Jenkins_New\jenkins.exe"/>
     <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="java.specification.version" value="14"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="5.236"/>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="setUp" time="1,090.445">
-    <failure message="timeout: Timed out receiving message from renderer: 0.153
-  (Session info: chrome=80.0.3987.163)
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="6.557"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="51.529">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name = &apos;firstName&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 0.153
-  (Session info: chrome=80.0.3987.163)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c46c6690015e5fb0251755c2406b058
+*** Element info: {Using=xpath, value=//input[@name = &apos;firstName&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name = &apos;firstName&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c46c6690015e5fb0251755c2406b058
+*** Element info: {Using=xpath, value=//input[@name = &apos;firstName&apos;]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -153,459 +152,133 @@ Session ID: fc8a0daf22bf1a1aca1903dae4703022
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
 	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy14.click(Unknown Source)
-	at com.mercury.qa.pages.HomePage.clickOnProfileLink(HomePage.java:55)
-	at com.mercury.qa.testcases.ProfilePageTest.setUp(ProfilePageTest.java:32)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at com.mercury.qa.pages.ProfilePage.createNewProfile(ProfilePage.java:52)
+	at com.mercury.qa.testcases.ProfilePageTest.validateCreateNewProfile(ProfilePageTest.java:47)
 </failure>
     <system-out>Before navigating to: &apos;http://newtours.demoaut.com/&apos;
 Navigated to:&apos;http://newtours.demoaut.com/&apos;
 Trying to find Element By : By.xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]
 Found Element By : By.xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (fc8a0daf22bf1a1aca1903dae4703022)] -&gt; xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (fc8a0daf22bf1a1aca1903dae4703022)] -&gt; xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c46c6690015e5fb0251755c2406b058)] -&gt; xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c46c6690015e5fb0251755c2406b058)] -&gt; xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]]
 Trying to find Element By : By.name: userName
 Found Element By : By.name: userName
 Trying to find Element By : By.name: password
 Found Element By : By.name: password
 Trying to find Element By : By.xpath: //input[@name = &apos;login&apos;]
 Found Element By : By.xpath: //input[@name = &apos;login&apos;]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (fc8a0daf22bf1a1aca1903dae4703022)] -&gt; xpath: //input[@name = &apos;login&apos;]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (fc8a0daf22bf1a1aca1903dae4703022)] -&gt; xpath: //input[@name = &apos;login&apos;]]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c46c6690015e5fb0251755c2406b058)] -&gt; xpath: //input[@name = &apos;login&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c46c6690015e5fb0251755c2406b058)] -&gt; xpath: //input[@name = &apos;login&apos;]]
 Trying to find Element By : By.xpath: //a[contains(text(),&apos;PROFILE&apos;)]
-Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;PROFILE&apos;)]&quot;}
-  (Session info: chrome=80.0.3987.163)
+Found Element By : By.xpath: //a[contains(text(),&apos;PROFILE&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (2c46c6690015e5fb0251755c2406b058)] -&gt; xpath: //a[contains(text(),&apos;PROFILE&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (2c46c6690015e5fb0251755c2406b058)] -&gt; xpath: //a[contains(text(),&apos;PROFILE&apos;)]]
+Trying to find Element By : By.xpath: //input[@name = &apos;firstName&apos;]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name = &apos;firstName&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;PROFILE&apos;)]}
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.997
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.998
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.999
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.996
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 9.993
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
-Exception occured: org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 0.153
-  (Session info: chrome=80.0.3987.163)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir8...}, goog:chromeOptions: {debuggerAddress: localhost:65171}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fc8a0daf22bf1a1aca1903dae4703022
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:60580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2c46c6690015e5fb0251755c2406b058
+*** Element info: {Using=xpath, value=//input[@name = &apos;firstName&apos;]}
 </system-out>
-    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 47199
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 19889
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1586789836.500][WARNING]: Timed out connecting to Chrome, retrying...
-Apr 13, 2020 8:27:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1589452016.487][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1589452018.742][WARNING]: Timed out connecting to Chrome, retrying...
+May 14, 2020 3:57:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-[1586789842.558][WARNING]: Timed out connecting to Chrome, retrying...
-[1586789975.985][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586789975.986][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586789985.986][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586789996.144][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586789996.147][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790006.147][SEVERE]: Timed out receiving message from renderer: 9.990
-[1586790016.502][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790016.502][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790026.503][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790037.619][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790037.622][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790047.626][SEVERE]: Timed out receiving message from renderer: 9.998
-[1586790057.681][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790057.684][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790067.684][SEVERE]: Timed out receiving message from renderer: 9.984
-[1586790078.539][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790078.545][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790088.546][SEVERE]: Timed out receiving message from renderer: 9.997
-[1586790100.697][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790100.700][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790110.700][SEVERE]: Timed out receiving message from renderer: 9.997
-[1586790121.136][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790121.137][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790131.137][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790142.685][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790142.685][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790152.685][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790164.137][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790164.142][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790174.144][SEVERE]: Timed out receiving message from renderer: 9.997
-[1586790184.600][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790184.602][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790194.604][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790204.906][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790204.906][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790214.906][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790225.891][SEVERE]: Timed out receiving message from renderer: 9.997
-[1586790225.892][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.997
-[1586790235.892][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790246.640][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790246.654][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790256.655][SEVERE]: Timed out receiving message from renderer: 9.995
-[1586790267.619][SEVERE]: Timed out receiving message from renderer: 9.994
-[1586790267.619][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.994
-[1586790277.620][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790288.131][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790288.132][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790298.132][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790308.649][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790308.650][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790318.650][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790330.008][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790330.008][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790340.008][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790351.714][SEVERE]: Timed out receiving message from renderer: 9.998
-[1586790351.715][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.998
-[1586790361.715][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790371.889][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790371.891][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790381.891][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790393.611][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790393.612][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790403.615][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790414.862][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790414.862][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790424.862][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790435.104][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790435.108][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790445.115][SEVERE]: Timed out receiving message from renderer: 9.997
-[1586790456.590][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790456.591][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790466.591][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790478.385][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790478.385][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790488.385][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790499.303][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790499.304][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790509.304][SEVERE]: Timed out receiving message from renderer: 9.997
-[1586790520.716][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790520.716][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790530.717][SEVERE]: Timed out receiving message from renderer: 9.998
-[1586790541.226][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790541.227][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790551.232][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790562.289][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790562.292][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790572.293][SEVERE]: Timed out receiving message from renderer: 9.993
-[1586790583.319][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790583.320][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790593.320][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790604.933][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790604.933][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790614.933][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790625.165][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790625.166][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790635.166][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790646.145][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790646.149][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790656.157][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790666.553][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790666.555][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790676.559][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790686.991][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790686.993][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790696.994][SEVERE]: Timed out receiving message from renderer: 9.995
-[1586790707.798][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790707.802][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790717.802][SEVERE]: Timed out receiving message from renderer: 9.996
-[1586790728.899][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790728.900][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790738.900][SEVERE]: Timed out receiving message from renderer: 9.995
-[1586790748.970][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790748.974][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790758.975][SEVERE]: Timed out receiving message from renderer: 9.996
-[1586790769.159][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790769.162][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790779.163][SEVERE]: Timed out receiving message from renderer: 9.993
-[1586790790.661][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790790.663][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790800.666][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790810.850][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790810.853][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790820.853][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790832.457][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790832.457][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790842.457][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790853.853][SEVERE]: Timed out receiving message from renderer: 9.999
-[1586790853.854][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 9.999
-[1586790863.854][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790874.273][SEVERE]: Timed out receiving message from renderer: 10.000
-[1586790874.276][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 10.000
-[1586790884.276][SEVERE]: Timed out receiving message from renderer: 9.995
-[1586790894.973][SEVERE]: Timed out receiving message from renderer: 0.103
-[1586790894.976][WARNING]: screenshot failed, retrying timeout: Timed out receiving message from renderer: 0.103
-[1586790904.977][SEVERE]: Timed out receiving message from renderer: 0.153
-java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\screenshots\1586790915311.png (The system cannot find the path specified)
+[1589452023.416][WARNING]: Timed out connecting to Chrome, retrying...
+[1589452028.906][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.137][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.450][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.806][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452029.943][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452031.914][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452032.174][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452041.755][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.066][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.419][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.523][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.635][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.887][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452042.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.103][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.205][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.307][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.550][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.757][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.871][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452043.982][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.096][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.205][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.419][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.532][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.636][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.740][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452044.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.055][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.172][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.287][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.390][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.499][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.604][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.770][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452045.893][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.040][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.153][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.255][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.357][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.465][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.572][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.673][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.784][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.886][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452046.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452047.093][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452047.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452047.306][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452047.419][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452047.650][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452047.755][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452048.153][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452048.300][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452048.406][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452048.571][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452048.756][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452048.888][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452049.044][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452049.301][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452049.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452049.881][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452050.473][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452074.415][SEVERE]: Timed out receiving message from renderer: 0.100
+java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\screenshots\1589452126559.png (The system cannot find the path specified)
 	at java.base/java.io.FileOutputStream.open0(Native Method)
 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
 	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:234)
@@ -621,163 +294,144 @@ java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\scr
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
 	at com.sun.proxy.$Proxy9.onException(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at com.mercury.qa.pages.ProfilePage.createNewProfile(ProfilePage.java:52)
+	at com.mercury.qa.testcases.ProfilePageTest.validateCreateNewProfile(ProfilePageTest.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="5.801"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="setUp" time="111.785">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;PROFILE&apos;)]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bcb0c79e11a47515f455111d3ca1c1c
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;PROFILE&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;PROFILE&apos;)]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bcb0c79e11a47515f455111d3ca1c1c
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;PROFILE&apos;)]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
-	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
-	at com.sun.proxy.$Proxy9.onException(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:107)
-	at com.sun.proxy.$Proxy10.getScreenshotAs(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.getScreenshotAs(EventFiringWebDriver.java:302)
-	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:57)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.mercury.qa.pages.HomePage.clickOnProfileLink(HomePage.java:55)
+	at com.mercury.qa.testcases.ProfilePageTest.setUp(ProfilePageTest.java:32)
+</failure>
+    <system-out>Before navigating to: &apos;http://newtours.demoaut.com/&apos;
+Navigated to:&apos;http://newtours.demoaut.com/&apos;
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]
+Found Element By : By.xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcb0c79e11a47515f455111d3ca1c1c)] -&gt; xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcb0c79e11a47515f455111d3ca1c1c)] -&gt; xpath: //a[contains(text(),&apos;SIGN-ON&apos;)]]
+Trying to find Element By : By.name: userName
+Found Element By : By.name: userName
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@name = &apos;login&apos;]
+Found Element By : By.xpath: //input[@name = &apos;login&apos;]
+Trying to click on: [[ChromeDriver: chrome on WINDOWS (7bcb0c79e11a47515f455111d3ca1c1c)] -&gt; xpath: //input[@name = &apos;login&apos;]]
+Clicked on: [[ChromeDriver: chrome on WINDOWS (7bcb0c79e11a47515f455111d3ca1c1c)] -&gt; xpath: //input[@name = &apos;login&apos;]]
+Trying to find Element By : By.xpath: //a[contains(text(),&apos;PROFILE&apos;)]
+Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;PROFILE&apos;)]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, goog:chromeOptions: {debuggerAddress: localhost:61086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bcb0c79e11a47515f455111d3ca1c1c
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;PROFILE&apos;)]}
+</system-out>
+    <system-err>Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 43584
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589452159.698][WARNING]: This version of ChromeDriver has not been tested with Chrome version 81.
+[1589452161.825][WARNING]: Timed out connecting to Chrome, retrying...
+May 14, 2020 3:59:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589452172.601][WARNING]: Timed out connecting to Chrome, retrying...
+[1589452182.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452210.363][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452210.591][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589452210.694][SEVERE]: Timed out receiving message from renderer: 0.100
+java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\screenshots\1589452261321.png (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:234)
+	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:184)
+	at org.openqa.selenium.io.FileHandler.copyFile(FileHandler.java:138)
+	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
+	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:59)
 	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -840,28 +494,10 @@ java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\scr
   <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="tearDown" time="0">
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="tearDown" time="0.002">
     <skipped/>
   </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="setUp" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="tearDown" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="setUp" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateCreateNewProfile" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="tearDown" time="0">
-    <skipped/>
-  </testcase>
-  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0">
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.068">
     <failure message="if assertion getting failedthis message will be displayed expected [Find a Flight: Mercury Tours:] but found [Sign-on: Mercury Tours]" type="java.lang.AssertionError">java.lang.AssertionError: if assertion getting failedthis message will be displayed expected [Find a Flight: Mercury Tours:] but found [Sign-on: Mercury Tours]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
@@ -870,24 +506,24 @@ java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\scr
 	at com.mercury.qa.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:36)
 </failure>
   </testcase>
-  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="verifyCorrectImageLabelTest" time="0"/>
-  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="clickOnIteneraryLinkTest" time="50.415">
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="verifyCorrectImageLabelTest" time="0.253"/>
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="clickOnIteneraryLinkTest" time="50.638">
     <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;ITINERARY&apos;)]&quot;}
-  (Session info: chrome=80.0.3987.163)
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:64185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce263beab8a7c351d47b8cbfb9f50f3f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 287dbbf2e85ac178245b1c3b5daf48c2
 *** Element info: {Using=xpath, value=//a[contains(text(),&apos;ITINERARY&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;ITINERARY&apos;)]&quot;}
-  (Session info: chrome=80.0.3987.163)
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:64185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce263beab8a7c351d47b8cbfb9f50f3f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 287dbbf2e85ac178245b1c3b5daf48c2
 *** Element info: {Using=xpath, value=//a[contains(text(),&apos;ITINERARY&apos;)]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -918,16 +554,16 @@ Session ID: ce263beab8a7c351d47b8cbfb9f50f3f
 </failure>
     <system-out>Trying to find Element By : By.xpath: //a[contains(text(),&apos;ITINERARY&apos;)]
 Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;ITINERARY&apos;)]&quot;}
-  (Session info: chrome=80.0.3987.163)
+  (Session info: chrome=81.0.4044.138)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-1QASA0A&apos;, ip: &apos;192.168.1.129&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:64185}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ce263beab8a7c351d47b8cbfb9f50f3f
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 287dbbf2e85ac178245b1c3b5daf48c2
 *** Element info: {Using=xpath, value=//a[contains(text(),&apos;ITINERARY&apos;)]}
 </system-out>
-    <system-err>java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\screenshots\1586790966345.png (The system cannot find the path specified)
+    <system-err>java.io.FileNotFoundException: F:\Vishal_Offc Work\Workspace\FreeMercuryTest\screenshots\1589452312499.png (The system cannot find the path specified)
 	at java.base/java.io.FileOutputStream.open0(Native Method)
 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:291)
 	at java.base/java.io.FileOutputStream.&lt;init&gt;(FileOutputStream.java:234)
@@ -936,7 +572,8 @@ Session ID: ce263beab8a7c351d47b8cbfb9f50f3f
 	at org.openqa.selenium.io.FileHandler.copy(FileHandler.java:117)
 	at com.mercury.qa.util.TestUtil.takeScreenshotAtEndOfTest(TestUtil.java:59)
 	at com.mercury.qa.util.WebEventListener.onException(WebEventListener.java:65)
-	at jdk.internal.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
@@ -989,10 +626,10 @@ Session ID: ce263beab8a7c351d47b8cbfb9f50f3f
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </system-err>
   </testcase>
-  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="2.3"/>
-  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="mercuryImageLogoTest" time="6.819"/>
-  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="loginTest" time="62.816"/>
-  <testcase classname="com.mercury.qa.testcases.ContactPageTest" name="verifyBackToHomeImgTest" time="0.53"/>
-  <testcase classname="com.mercury.qa.testcases.ContactPageTest" name="verifyFooterLabelTest" time="0.146"/>
-  <testcase classname="com.mercury.qa.testcases.ContactPageTest" name="verifyClickOnbackToHomeBtnTest" time="1.499"/>
+  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="2.586"/>
+  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="mercuryImageLogoTest" time="3.992"/>
+  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="loginTest" time="23.667"/>
+  <testcase classname="com.mercury.qa.testcases.ContactPageTest" name="verifyBackToHomeImgTest" time="0.174"/>
+  <testcase classname="com.mercury.qa.testcases.ContactPageTest" name="verifyFooterLabelTest" time="0.111"/>
+  <testcase classname="com.mercury.qa.testcases.ContactPageTest" name="verifyClickOnbackToHomeBtnTest" time="1.48"/>
 </testsuite>

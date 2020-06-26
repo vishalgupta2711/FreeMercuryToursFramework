@@ -8,6 +8,7 @@
   
     <test name="Mercury DemoTours Application test cases">
          <classes>
+         
              <class name="com.mercury.qa.testcases.ContactPageTest"/>
              <class name="com.mercury.qa.testcases.HomePageTest"/>
              <class name="com.mercury.qa.testcases.LoginPageTest"/>	

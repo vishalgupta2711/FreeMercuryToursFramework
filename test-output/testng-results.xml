@@ -1,33 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-21T15:49:34 IST" name="Default suite" finished-at="2020-04-21T15:50:35 IST" duration-ms="60907">
+  <suite started-at="2020-06-08T20:55:41 IST" name="Default suite" finished-at="2020-06-08T20:57:26 IST" duration-ms="105049">
     <groups>
     </groups>
-    <test started-at="2020-04-21T15:49:34 IST" name="Default test" finished-at="2020-04-21T15:50:35 IST" duration-ms="60907">
-      <class name="com.mercury.qa.testcases.ContactPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ContactPageTest@2ddc8ecb]" started-at="2020-04-21T15:49:34 IST" name="setUp" finished-at="2020-04-21T15:50:31 IST" duration-ms="57231" status="PASS">
+    <test started-at="2020-06-08T20:55:41 IST" name="Default test" finished-at="2020-06-08T20:57:26 IST" duration-ms="105049">
+      <class name="com.mercury.qa.testcases.ProfilePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:55:44 IST" name="setUp" finished-at="2020-06-08T20:56:08 IST" duration-ms="24015" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyBackToHomeImgTest()[pri:1, instance:com.mercury.qa.testcases.ContactPageTest@2ddc8ecb]" started-at="2020-04-21T15:50:31 IST" name="verifyBackToHomeImgTest" finished-at="2020-04-21T15:50:31 IST" duration-ms="373" status="PASS">
+        <test-method signature="validateCreateNewProfile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:08 IST" name="validateCreateNewProfile" data-provider="getMercuryTestData" finished-at="2020-06-08T20:56:15 IST" duration-ms="6571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9.89878798E8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[aman@yahoo.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[kurjee,Patna]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[road no 0.]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Patna]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bihar]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[527001.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyBackToHomeImgTest -->
-        <test-method signature="verifyFooterLabelTest()[pri:2, instance:com.mercury.qa.testcases.ContactPageTest@2ddc8ecb]" started-at="2020-04-21T15:50:31 IST" name="verifyFooterLabelTest" finished-at="2020-04-21T15:50:32 IST" duration-ms="176" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFooterLabelTest -->
-        <test-method signature="verifyClickOnbackToHomeBtnTest()[pri:3, instance:com.mercury.qa.testcases.ContactPageTest@2ddc8ecb]" started-at="2020-04-21T15:50:32 IST" name="verifyClickOnbackToHomeBtnTest" finished-at="2020-04-21T15:50:33 IST" duration-ms="1445" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyClickOnbackToHomeBtnTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.ContactPageTest@2ddc8ecb]" started-at="2020-04-21T15:50:33 IST" name="tearDown" finished-at="2020-04-21T15:50:35 IST" duration-ms="1498" status="PASS">
+        </test-method> <!-- validateCreateNewProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:15 IST" name="tearDown" finished-at="2020-06-08T20:56:16 IST" duration-ms="1543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.mercury.qa.testcases.ContactPageTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:16 IST" name="setUp" finished-at="2020-06-08T20:56:31 IST" duration-ms="14598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewProfile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:31 IST" name="validateCreateNewProfile" data-provider="getMercuryTestData" finished-at="2020-06-08T20:56:37 IST" duration-ms="5667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sandeep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gupta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7.89944554E8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sandeep@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[gurgaon]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DLF park]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Noida]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[UttarPradesh]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[985001.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:37 IST" name="tearDown" finished-at="2020-06-08T20:56:38 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:38 IST" name="setUp" finished-at="2020-06-08T20:56:54 IST" duration-ms="16130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewProfile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:56:54 IST" name="validateCreateNewProfile" data-provider="getMercuryTestData" finished-at="2020-06-08T20:57:00 IST" duration-ms="5547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Juney]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dlima]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.163452598E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[juney@cibc.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[toronto,686]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[bay park]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Toronto]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Ontario]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[200031.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[CANADA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:57:00 IST" name="tearDown" finished-at="2020-06-08T20:57:01 IST" duration-ms="1476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:57:01 IST" name="setUp" finished-at="2020-06-08T20:57:20 IST" duration-ms="18287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCreateNewProfile(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:57:20 IST" name="validateCreateNewProfile" data-provider="getMercuryTestData" finished-at="2020-06-08T20:57:25 IST" duration-ms="5356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maria]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naveiro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.108953241E9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[maria@hotmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[white house]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Twin towers]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Newyork]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[8400021.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[UNITED STATES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewProfile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@43301423]" started-at="2020-06-08T20:57:25 IST" name="tearDown" finished-at="2020-06-08T20:57:26 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mercury.qa.testcases.ProfilePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

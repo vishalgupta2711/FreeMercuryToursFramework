@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="validateCreateNewProfile"/>
+          <include name="validateCreateNewProfile" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.mercury.qa.testcases.ProfilePageTest -->
       <class name="com.mercury.qa.testcases.HomePageTest">
